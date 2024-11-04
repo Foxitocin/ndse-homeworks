@@ -1,0 +1,15 @@
+{
+  "name": "005-http",
+  "version": "1.0.0",
+  "description": "Http module, weatherstack.com API",
+  "main": "task02.js",
+  "scripts": {
+    "start": "node task02.js",
+    "weather": "node -r dotenv/config task02.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
